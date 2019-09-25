@@ -1,0 +1,26 @@
+.navbar-dark{
+   background-image: url("../img/background.jpg");
+}
+
+.navbar-dark .navbar-brand {
+    color: #F6EADA;
+    font-size: xx-large;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #F6EADA;
+    font-size: x-large;
+}
+
+.page-title-block {
+    text-align: center;
+    color: #774F36;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.content-block {
+    text-align: justify;
+    width: 25%;
+    margin: 0 auto;
+}
