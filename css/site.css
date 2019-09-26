@@ -24,3 +24,34 @@
     width: 25%;
     margin: 0 auto;
 }
+
+.icons {
+    text-align: center;
+    margin: 40px; 
+}
+
+.icon-align {
+    text-align: center;
+    margin: 5px;
+}
+
+.icon-align2 {
+    text-align: center;
+    margin: 5px;
+    padding-left: 22px;
+}
+
+.icon-container {
+    width: 10%;
+    margin: 0 auto;
+    text-align: justify;
+    
+}
+
+.centered-conteiner {
+    text-align: center;
+    
+
+
+
+}
