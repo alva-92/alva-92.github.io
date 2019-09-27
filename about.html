@@ -31,7 +31,7 @@
                             <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./about.html">About</a>
+                            <a class="nav-link" href="./about.html">Background</a>
                         </li>
                     </ul>
                 </div>  
@@ -40,11 +40,94 @@
 
         <div class="page-title-block">
             <div class="center-block text-center">
-                <h1>Coming Soon</h1>
-                <h2>Stay tuned!</h2>
-        
+                <h1>Background</h1>
+                <div class="content-block-2">
+                    <p>
+                        My career started in El Salvador when I started pursuing my passion for robotics and automation. During my first semester
+                        in mechanical engineering at the University of El Salvador, I got the opportunity of studying abroad. That opportunity brought me to
+                        Canada where I studied Intrumentation and Control engineering. I worked in automation for about 3 years creating and programming
+                        electro-mechanical systems for the food industry with the goal of automating their production lines in multiple factories around the globe.
+                    </p>
+                    <p>
+                        Later on, I decided to further my career and specialize in Software. During that time I started to work independently as a freelancer 
+                        helping people build simple applications and websites while finishing my studies.
+                        This led me to a position as a Sofware Developer at the Center of Applied Research and Innovation where I've been working developing cool 
+                        projects that aim to solve everyday problems and develop new technologies.    
+                    </p>
+                </div>
             </div>
         </div>
 
+
+        <div class="center-block text-center">  
+            <h1>Work</h1>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <script>
+            $(function() {
+
+                $(".btn").on("click", function() {
+                    $(".content-section").hide(); /* Hide all the sections */
+                    $("#" + $(this).attr("data-section")).show(); /* Display the selected experience */
+                });
+            });                
+        </script>
+
+        <div class="centered">
+
+            <div class="experience">
+
+                <div id="div1">
+                        
+                    <div>
+                        
+                        <div class="button-align">
+                            <button type="button" data-section="exp1" id="exp" class="btn btn-primary segmentedButton">Algonquin College</button>
+                        </div>
+        
+                        <div class="button-align">
+                            <button type="button" data-section="exp2" id="exp" class="btn btn-primary segmentedButton">Freelancer</button>
+                        </div>
+        
+                        <div class="button-align">
+                            <button type="button" data-section="exp3" id="exp" class="btn btn-primary segmentedButton">Capital Controls</button>
+                        </div>
+        
+                        <div class="button-align">
+                            <button type="button" data-section="exp4" id="exp" class="btn btn-primary segmentedButton">Sightline</button>
+                        </div>
+                    </div>
+        
+                </div>
+        
+                <div id="div2">
+
+                    <div class="content-section" id="exp1">
+                        <h2> Center of Applied Research and Innovation </h2>
+                        <p>Section 1 Content goes here</p>
+                    </div>
+                    <div class="content-section" id="exp2">
+                        <h2> Freelancer </h2>
+                        <p>Section 2 Content goes here</p>
+                    </div>
+                    <div class="content-section" id="exp3">
+                        <h2> Capital Controls </h2>
+                        <p>Section 3 Content goes here</p>
+                    </div>
+                    <div class="content-section" id="exp4">
+                        <h2> Sightline Process Control</h2>
+                        <p>Section 4 Content goes here</p>
+                    </div>
+
+                    <div class="content-section" id="exp5">
+                        <h2> In-TAC - International Talent Acquisition Center</h2>
+                        <p>Section 4 Content goes here</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </body>
 </html> 
