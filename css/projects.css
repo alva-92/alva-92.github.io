@@ -1,0 +1,9 @@
+.card-img{
+    width: 100%!important;
+    height: 400px!important;
+    object-fit: scale-down;
+ }
+
+ .card{
+    height: 600px!important;
+ }
