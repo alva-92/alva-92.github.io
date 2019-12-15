@@ -1,9 +1,24 @@
-.card-img{
-    width: 100%!important;
-    height: 400px!important;
-    object-fit: scale-down;
+.project-entry-row
+{
+    background-color: white;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.project-entry
+{
+   font-size: 1.8rem;
+   color: #7E5537;
+   text-align: left;
+   font-weight: bold;
  }
 
- .card{
-    height: 600px!important;
- }
+.p-blog-entry 
+{
+   text-align: justify;
+   color: black;
+   font-size: 1.1rem;
+   padding-right: 40px;
+}

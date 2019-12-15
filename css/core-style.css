@@ -4,3 +4,61 @@ body
 {
     font-family: 'Poppins', sans-serif;
 }
+
+.nav-link{
+    font-size: 1.4rem; 
+}
+
+.title-1
+{
+    font-size: 2rem;
+    color: #7E5537;
+    font-weight: bold;
+}
+
+.p-site 
+{
+   color: black;
+   font-size: 1.1rem;
+   padding-right: 40px;
+}
+
+    /* Nav bar */
+
+@media (min-width: 990px) 
+{
+    .navbar 
+    {
+        height:75px; /* Nav bar height */
+    }
+}
+
+.ac-nav-link{
+    font-size: 1rem; 
+}
+
+    /* Other Links */
+  
+/* unvisited link */
+a:link 
+{
+    color: #7E5537;
+}
+
+/* visited link */
+a:visited 
+{
+    color: #7E5537;
+}
+
+/* mouse over link */
+a:hover 
+{
+    color: #7E5537;
+}
+
+/* selected link */
+a:active 
+{
+    color: #7E5537;
+} 
