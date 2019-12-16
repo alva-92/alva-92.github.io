@@ -62,3 +62,14 @@ a:active
 {
     color: #7E5537;
 } 
+
+
+.connect-btn
+{
+    background-color: #7E5537;
+}
+
+.connect-btn:hover
+{
+    background-color: rgb(201, 204, 26);
+}
