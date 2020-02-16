@@ -41,125 +41,141 @@
             </nav>
         </header>
 
-        <div class="page-title-block">
-            <div class="center-block text-center">
-                <h1>Background</h1>
-                <div class="content-block-2">
-                    <p>
-                        My career started in El Salvador when I started pursuing my passion for robotics and automation. During my first semester
-                        in mechanical engineering at the University of El Salvador, I got the opportunity of studying abroad. That opportunity brought me to
-                        Canada where I studied Intrumentation and Control engineering. I worked in automation for about 3 years creating and programming
-                        electro-mechanical systems for the food industry with the goal of automating their production lines in multiple factories around the globe.
-                    </p>
-                    <p>
-                        Later on, I decided to further my career and specialize in Software. During that time I started to work independently as a freelancer 
-                        helping people build simple applications and websites while finishing my studies.
-                        This led me to a position as a Sofware Developer at the Center of Applied Research and Innovation where I've been working developing cool 
-                        projects that aim to solve everyday problems and develop new technologies.    
-                    </p>
-                </div>
-            </div>
-        </div>
+        <article>
 
+            <section>
 
-        <div class="center-block text-center">  
-            <h1 id="title">Work</h1>
-        </div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-        <script>
-            function loadInitialContent() {
-                $("#exp1").toggle();
-            };
-        </script>
-
-        <script>
-            $(function() {
-                $(".btn").on("click", function() {
-                    $(".content-section").hide(); /* Hide all the sections */
-                    $("#" + $(this).attr("data-section")).show(); /* Display the selected experience */
-                });
-            });                
-        </script>
-
-        <div class="centered">
-
-            <div class="experience">
-
-                <div id="div1">
+                <div class="container">
+                    <h1 class="title-1 centered-title">Background</h1>
+                    <div class="content-block-2">
                         
-                    <div class="menu">
-                        
-                        <div class="button-align">
-                            <button type="button" data-section="exp1" id="exp" class="btn btn-primary segmentedButton">Algonquin College</button>
-                        </div>
-        
-                        <div class="button-align">
-                            <button type="button" data-section="exp2" id="exp" class="btn btn-primary segmentedButton">Freelancer</button>
-                        </div>
-        
-                        <div class="button-align">
-                            <button type="button" data-section="exp3" id="exp" class="btn btn-primary segmentedButton">Capital Controls</button>
-                        </div>
-        
-                        <div class="button-align">
-                            <button type="button" data-section="exp4" id="exp" class="btn btn-primary segmentedButton">Sightline</button>
-                        </div>
+                        <p class="p-site">
+                            My career started in El Salvador when I started pursuing my passion for robotics and automation. During my first semester
+                            in mechanical engineering at the University of El Salvador, I got the opportunity of studying abroad. That opportunity brought me to
+                            Canada where I studied Intrumentation and Control engineering. I worked in automation for about 3 years creating and programming
+                            electro-mechanical systems for the food industry with the goal of automating their production lines in multiple factories around the globe.
+                        </p>
 
-                        <div class="button-align">
-                            <button type="button" data-section="exp5" id="exp" class="btn btn-primary segmentedButton">In-TAC</button>
-                        </div>
+                        <p class="p-site">
+                            Later on, I decided to further my career and specialize in Software. During that time I started to work independently as a freelancer 
+                            helping people build simple applications and websites while finishing my studies.
+                            This led me to a position as a Sofware Developer at the Center of Applied Research and Innovation where I've been working developing cool 
+                            projects that aim to solve everyday problems and develop new technologies.    
+                        </p>
                     </div>
-        
+                </div>
+
+            </section>
+ 
+            <section>
+
+                <div class="center-block text-center">  
+                    <h1 class="title-1" id="title">Work</h1>
                 </div>
         
-                <div id="div2">
-
-                    <div class="content-section" id="exp1">
-                        <h5 id="title"> Center of Applied Research and Innovation </h5>
-                        <p id="content-style"> 
-                            Developed and maintained real-time complex cross-platform applications. 
-                            Specifically using C++, Java, Python and JavaScript.
-                        </p>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        
+                <script>
+                    function loadInitialContent() {
+                        $("#exp1").toggle();
+                    };
+                </script>
+        
+                <script>
+                    $(function() {
+                        $(".btn").on("click", function() {
+                            $(".content-section").hide(); /* Hide all the sections */
+                            $("#" + $(this).attr("data-section")).show(); /* Display the selected experience */
+                        });
+                    });                
+                </script>
+        
+                <div class="centered">
+        
+                    <div class="experience">
+        
+                        <div id="div1">
+                                
+                            <div class="menu">
+                                
+                                <div class="button-align">
+                                    <button type="button" data-section="exp1" id="exp" class="btn btn-primary history segmentedButton">Algonquin College</button>
+                                </div>
+                
+                                <div class="button-align">
+                                    <button type="button" data-section="exp2" id="exp" class="btn btn-primary history segmentedButton">Freelancer</button>
+                                </div>
+                
+                                <div class="button-align">
+                                    <button type="button" data-section="exp3" id="exp" class="btn btn-primary history segmentedButton">Capital Controls</button>
+                                </div>
+                
+                                <div class="button-align">
+                                    <button type="button" data-section="exp4" id="exp" class="btn btn-primary history segmentedButton">Sightline</button>
+                                </div>
+        
+                                <div class="button-align">
+                                    <button type="button" data-section="exp5" id="exp" class="btn btn-primary history segmentedButton">In-TAC</button>
+                                </div>
+                            </div>
+                
+                        </div>
+                
+                        <div id="div2">
+        
+                            <div class="content-section" id="exp1">
+                                <h5 id="title"> Center of Applied Research and Innovation </h5>
+                                <p id="content-style"> 
+                                    Developed and maintained real-time complex cross-platform applications. 
+                                    Specifically using C++, Java, Python and JavaScript.
+                                </p>
+                            </div>
+                            <div class="content-section" id="exp2">
+                                <h5 id="title"> Freelancer </h5>
+                                <p id="content-style">
+                                    Designed small Windows applications mainly for data processing using Java and VB,
+                                    built websites and small web applications using HTML, CSS and JavaScript.
+                                    Developed business relationships with small companies and individuals.
+                                </p>
+                            </div>
+                            <div class="content-section" id="exp3">
+                                <h5 id="title"> Capital Controls </h5>
+                                <p id="content-style">
+                                    Built electro-mechanical control systems for water treatment plants and 
+                                    ensured that production processes are carried out in accordance with company policies and procedures.
+                                </p>
+                            </div>
+                            <div class="content-section" id="exp4">
+                                <h5 id="title"> Sightline Process Control</h5>
+                                <p id="content-style">
+                                    Built, programmed, and tested automation systems using motor control, servos, microcontrollers, VFDs’, 
+                                    Programmable Logic Controllers (Allen Bradley 500 and 5000), HMI's, and traveled nationally and internationally 
+                                    to maintain, repair and install these sytems.
+        
+                                </p>
+                            </div>
+        
+                            <div class="content-section" id="exp5">
+                                <h5 id="title"> In-TAC - International Talent Acquisition Center</h5>
+                                <p id="content-style">
+                                    Imagine starting all over again in a new country, learning a new language and trying to fit in a 
+                                    new business culture. Sounds daunting? In-Tac's Mentorship Program consists in providing the help needed 
+                                    to successfully go through that transition and adapt to a new environment. It is the only one of its kind 
+                                    in Canada that coaches both mentors and mentees at the same time to successfully incorporate into the work force.
+                                </p>
+                            </div>
+        
+                        </div>
                     </div>
-                    <div class="content-section" id="exp2">
-                        <h5 id="title"> Freelancer </h5>
-                        <p id="content-style">
-                            Designed small Windows applications mainly for data processing using Java and VB,
-                            built websites and small web applications using HTML, CSS and JavaScript.
-                            Developed business relationships with small companies and individuals.
-                        </p>
-                    </div>
-                    <div class="content-section" id="exp3">
-                        <h5 id="title"> Capital Controls </h5>
-                        <p id="content-style">
-                            Built electro-mechanical control systems for water treatment plants and 
-                            ensured that production processes are carried out in accordance with company policies and procedures.
-                        </p>
-                    </div>
-                    <div class="content-section" id="exp4">
-                        <h5 id="title"> Sightline Process Control</h5>
-                        <p id="content-style">
-                            Built, programmed, and tested automation systems using motor control, servos, microcontrollers, VFDs’, 
-                            Programmable Logic Controllers (Allen Bradley 500 and 5000), HMI's, and traveled nationally and internationally 
-                            to maintain, repair and install these sytems.
-
-                        </p>
-                    </div>
-
-                    <div class="content-section" id="exp5">
-                        <h5 id="title"> In-TAC - International Talent Acquisition Center</h5>
-                        <p id="content-style">
-                            Imagine starting all over again in a new country, learning a new language and trying to fit in a 
-                            new business culture. Sounds daunting? In-Tac's Mentorship Program consists in providing the help needed 
-                            to successfully go through that transition and adapt to a new environment. It is the only one of its kind 
-                            in Canada that coaches both mentors and mentees at the same time to successfully incorporate into the work force.
-                        </p>
-                    </div>
-
                 </div>
-            </div>
-        </div>
+
+            </section>
+            
+            <section>
+                <br>
+                <br>
+                <br>
+                <br>
+            </section>
     </body>
 </html> 
