@@ -27,6 +27,18 @@ html, body
     font-weight: bold;
 }
 
+.title-1-w
+{
+    
+    color: white;
+    font-weight: bold;
+}
+
+.row-v1
+{
+  background-color: #A97B57;
+}
+
 .title-2
 {
     font-size: 1.3vw;
