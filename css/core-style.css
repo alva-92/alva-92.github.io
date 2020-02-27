@@ -36,19 +36,25 @@ html, body
 
 .row-v1
 {
-  background-color: #A97B57;
+  background-color: rgb(184, 151, 124);
 }
 
 .title-2
 {
-    font-size: 1.3vw;
+    
     color: #7E5537;
     font-weight: bold;  
 }
 .p-site 
 {
    color: black;
-   font-size: 1.2vw;
+}
+
+.p-site-b 
+{
+   color: #7E5537;
+   font-weight: bold;  
+   
 }
 
     /* Nav bar */
