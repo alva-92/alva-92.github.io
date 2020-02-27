@@ -17,6 +17,11 @@
     text-align: center !important;
 }
 
+h2, h1
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 .top-adjustment
 {
     padding-top: 3%;
@@ -38,7 +43,7 @@
 
 .icons {
     text-align: center;
-    margin: 40px; 
+    margin-top: 10%;
 }
 
 .icon-align {
