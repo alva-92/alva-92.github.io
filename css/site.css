@@ -67,9 +67,9 @@ h2, h1
     text-align: center;
 }
 
-.centered {
-    margin: 0 auto;
-    width: 50%;
+.centered 
+{
+    width: 100%;
 }
 .centered-container-buttons {
     text-align: center;
@@ -88,6 +88,23 @@ h2, h1
     width: 100%;    
 }
 
+
+@media screen and (min-width: 48em) {
+
+    .experience {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center ; /* for horizontal aligning of child divs */
+        
+    }
+
+    #div1 {
+        display: inline-block;
+        width: 25%;
+        padding: 1rem;
+    }
+  }
+
 #div1 {
     display: inline-block;
     width: 25%;
@@ -104,7 +121,6 @@ h2, h1
     display:flex;
     flex-wrap: wrap;
     justify-content: center ; /* for horizontal aligning of child divs */
-    
 }
 
 #exp {
@@ -122,3 +138,21 @@ h2, h1
     color: #774F36;
     text-align: justify;
 }
+
+.display-4
+{
+    text-align: center;
+}
+
+.row
+{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.about-margin
+{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
