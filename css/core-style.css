@@ -27,10 +27,22 @@ html, body
     font-weight: bold;
 }
 
+
+.centered-item{
+    text-align: center;
+}
+
 .title-1-w
 {
     
     color: white;
+    font-weight: bold;
+}
+
+.title-1-b
+{
+    
+    color: #3D0C02;
     font-weight: bold;
 }
 
@@ -41,19 +53,20 @@ html, body
 
 .title-2
 {
-    
-    color: #7E5537;
+    color: #3D0C02;
     font-weight: bold;  
 }
 .p-site 
 {
    color: black;
+   font-size: 20px;
 }
 
 .p-site-b 
 {
    color: #7E5537;
-   font-weight: bold;  
+   font-weight: bold; 
+   font-size: 22px; 
    
 }
 

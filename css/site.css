@@ -1,5 +1,6 @@
-.navbar-dark{
-   background-image: url("../img/background.jpg");
+.navbar-dark
+{
+    background-color: #3D0C02 !important;
 }
 
 .navbar-dark .navbar-brand {
@@ -43,7 +44,7 @@ h2, h1
 
 .icons {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .icon-align {
@@ -130,8 +131,9 @@ h2, h1
     color: #F6EADA;
 }
 
-#title {
-    color: #774F36;
+#title 
+{
+    
 }
 
 #content-style{
