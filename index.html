@@ -20,7 +20,9 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
         <!-- JQuery and Navbar script -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script type="javascript" src="./js/nav.js"></script>
+        <script type="text/javascript" src="./js/nav.js"></script>
+        <script type="text/javascript" src="./js/slider.js"></script>
+        
     </head>
 
     <body>
@@ -66,9 +68,63 @@
             </section>
 
             <section>
+
+                <h2 class="page-title">Some of my work</h2>
+
+                <div class="slider-container">
+
+                    <div class="slider">
+                        
+                        <div class="row slide active" id='s1'>
+                            <div class="col-lg-8 order-1">
+                                <div>
+                                    <img src="./img/mcras-main-August2020.png" alt="">
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="slide-content-block">
+                                    <h1 class="page-subtitle">MCRAS</h1>
+                                    <p class="description">
+                                        Founded MCRAS, a company that specializes in robotics, 
+                                        prototyping, and software services
+                                    </p>
+
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                       
+
+                        <div class="slide right" id='s2'><img src="https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt=""></div>
+                        <div class="slide right" id='s3'><img src="https://images.pexels.com/photos/114907/pexels-photo-114907.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt=""></div>
+                        <div class="slide right" id='s4'><img src="https://images.pexels.com/photos/69432/pexels-photo-69432.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt=""></div>
+                    </div>
+        
+                    <div class="prev"><i class="fa fa-chevron-left fa-2x"></i></div>
+                    <div class="next"><i class="fa fa-chevron-right fa-2x"></i></div>
+          
+                    <div class="bols">
+                        <span data-get="#s1" class="clicked"></span>
+                        <span data-get="#s2"></span>
+                        <span data-get="#s3"></span>
+                        <span data-get="#s4"></span>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section>
+                <br>
+                <br>
+                <br>
                 <div class="container">
                     <div class="content-block">
-                        <h2 class="title-2 centered-title">About me</h2>
+                        <h2 class="page-title">About me</h2>
                         
                         <p class="p-site">
                             Over the last 3 years I've been creating software for individuals,
@@ -98,14 +154,9 @@
                         </div>
                     </div>
                 </div>
-
             </section>
-            
-            <section>
-
-            </article>
-
         </article>
+
         <aside>
 
         </aside>
