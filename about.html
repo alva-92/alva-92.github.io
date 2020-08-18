@@ -8,7 +8,7 @@
         <title>Enrique Alvarenga - About</title> 
         <meta name="description" content="Enrique Alvarenga - Personal Website">
         <meta name="author" content="Gerardo Enrique Alvarenga">
-        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="HandheldFriendly" content="true">
         <!-- Add icon library -->
@@ -26,70 +26,34 @@
 
     <body onload="loadInitialContent()">
         <header>
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <a class="navbar-brand" href="./index.html">Enrique Alvarenga</a>
-                
-                <!-- Links -->
-                <div class="collapse navbar-collapse justify-content-end" id="nav-content">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./about.html">Background</a>
-                        </li>
-                    </ul>
-                </div>  
-            </nav>
+            <div id="rc_logo">
+                <a href="./index.html" title="Logo">Enrique Alvarenga</a>
+            </div>  
+            <div class="rc_nav" id="centered_nav">
+                <a href="./about.html" title="Home">Background</a>
+                <a href="./projects.html" title="About">Projects</a>
+                <a href="./contact.html" title="Contact">Contact</a>
+                <a href="javascript:void(0);" title="Menu" 
+                style="font-size:18px;" class="icon" 
+                onclick="myFunction()">&#9776;</a>
+            </div>
         </header>
 
         <article>
 
-            <section class="row-v1">
+            <section class="row row-v1">
                 <div class="container-fluid text-center">
                     <br>
-                    <h1 class="title-1-w">Background</h1>     
+                    <h1 class="title-1-b">Background</h1>     
                     <br>
                 </div>
               </section>
-
-            <section>
-
-                <br>
-                <br>
-                <div class="container">
-                    <div class="content-block-2">
-                        
-                        <p class="p-site">
-                            My career started in El Salvador when I started pursuing my passion for robotics and automation. During my first semester
-                            in mechanical engineering at the University of El Salvador, I got the opportunity of studying abroad. That opportunity brought me to
-                            Canada where I studied Intrumentation and Control engineering. I worked in automation for about 3 years creating and programming
-                            electro-mechanical systems for the food industry and automating their production lines in multiple factories around the globe.
-                        </p>
-
-                        <p class="p-site">
-                            Later on, I decided to further my career and specialize in Software. During that time I started to work independently as a freelancer 
-                            helping people build simple applications and websites while finishing my studies.
-                            This led me to a position as a Sofware Developer at the Center of Applied Research and Innovation where I've been working developing cool 
-                            projects that aim to solve everyday problems and develop new technologies.    
-                        </p>
-                    </div>
-                </div>
-
-            </section>
  
             <section>
 
-                <div class="center-block text-center">  
+                <!-- <div class="center-block text-center">  
                     <h1 class="title-2" id="title">Work</h1>
-                </div>
+                </div> -->
         
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         

@@ -48,7 +48,7 @@ html, body
 
 .row-v1
 {
-  background-color: snow;
+  background-color: initial;
 }
 
 .title-2
@@ -59,7 +59,7 @@ html, body
 .p-site 
 {
    color: black;
-   font-size: 20px;
+   font-size: 1.3vw;
 }
 
 .p-site-b 
