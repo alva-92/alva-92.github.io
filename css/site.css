@@ -101,8 +101,8 @@
     .description
     {
       text-align: -webkit-auto;
-      margin-left: 2.5em;
-      margin-right: 0em;
+      margin-left: 5em;
+      margin-right: 5em;
       font-size: 1.3vw;
     }
 
@@ -286,9 +286,9 @@ h2, h1
 
 .slider .right{left: 100%}
 
-.slide-content-block
-{
-  padding-top: 25%;
+.slide-content-block {
+  padding-top: 20%;
+  padding-left: 10%;
 }
 
 .next, .prev{

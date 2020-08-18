@@ -1,3 +1,9 @@
+$(function() { 
+    if($('.active').position().left == '0') {
+        $('.active').next().removeClass('active');
+    }
+});
+
 $(function () {
 
   $('.next').on('click', function () {
