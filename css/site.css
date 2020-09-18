@@ -97,6 +97,15 @@
       margin-top: 1%;
       margin-bottom: 1%;
     }
+    .page-subtitle-more
+    {
+      text-align:left;
+      font-size: 3em;
+      color: #224566;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      padding-left: 10%;
+    }
 
     .description
     {
@@ -359,4 +368,70 @@ cursor: pointer;
 .bols .clicked{
   background-color: aliceblue;
   border: none
+}
+
+.button--round-s {
+	border-radius: 5px;
+}
+
+.button--border-medium {
+	border: 2px solid;
+}
+
+.last-block
+{
+  background-image: url("../img/main-clear.jpg");
+  background-size: cover;
+}
+
+.more {
+	-webkit-transition: border-color 0.4s, color 0.4s;
+  transition: border-color 0.4s, color 0.4s;
+  height: 15%;
+  background-color: transparent;
+}
+
+.more::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+  width: 20%;
+  padding-top: 0%;
+  margin-left: 40%;
+  margin-right: 40%;
+	/* height: 100%; */
+	background: #37474f;
+	z-index: -1;
+	opacity: 0;
+	-webkit-transform: scale3d(0.7, 1, 1);
+	transform: scale3d(0.7, 1, 1);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.more.button--round-s::before {
+	border-radius: 2px;
+}
+
+.more,
+.more::before {
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.more:hover {
+  background-color: #37474f;
+	color: white;
+	border-color: #37474f;
+}
+.more.button--inverted:hover {
+	color: #37474f;
+	border-color: #37474f;
+}
+.more:hover::before {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
