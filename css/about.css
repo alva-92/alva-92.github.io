@@ -1,4 +1,8 @@
-.row-v1
+.page-subtitle
 {
-  background-color: burlywood;
+  text-align:left;
+  font-size: 2em;
+  color: #224566;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
