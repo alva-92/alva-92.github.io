@@ -128,3 +128,14 @@ a:active
 {
     background-color: rgb(201, 204, 26);
 }
+
+/* Responsive layout - when the screen is 35.8125em (~573px) wide or less */
+@media all and (max-width: 35.8125em) 
+{
+    .p-site 
+    {
+      font-size: 3.5vw;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+}
