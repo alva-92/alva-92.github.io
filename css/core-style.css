@@ -1,15 +1,30 @@
-/* Global CSS for the Website - Common for all pages */
-
-html, body
+/*
+***
+* Global styles for the site
+***
+* Default styles for all pages, this are
+* overriden by individual page styles if
+* needed. This should be loaded first.
+***
+*/
+html
 {
-    font-family: 'Poppins', sans-serif;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+    height:     100%;
     overflow-x: hidden;
-    min-height: 120vh;
-    font-size: 100%;
-    min-width: 500px;  
+}
+
+
+body
+{
+    font-family:      'Poppins', sans-serif;
+    min-width:        25em;
+    width:            100%;
+    height:           min-content;
+    overflow-x:       hidden;
+    margin:           0;
+    padding:          0;
+    box-sizing:       border-box;
+    background-color: white;  
 }
 
 .history{
