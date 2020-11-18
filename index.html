@@ -6,7 +6,7 @@
         <title>Enrique Alvarenga - Homepage</title> 
         <meta name="description" content="Enrique Alvarenga - Personal Website">
         <meta name="author" content="Gerardo Enrique Alvarenga">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="HandheldFriendly" content="true">
 
@@ -14,13 +14,13 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!-- Website style sheet -->
-        <link href="css/nav.css" rel="stylesheet">
-        <link href="css/site.css" rel="stylesheet">
         <link href="css/core-style.css" rel="stylesheet">
+        <link href="css/nav.css" rel="stylesheet">
+        <link href="css/home.css" rel="stylesheet">
         <!-- Font -->
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
         <!-- JQuery and Navbar script -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="./js/nav.js"></script>
         <script type="text/javascript" src="./js/slider.js"></script>
         
@@ -43,27 +43,21 @@
         </header>
 
         <article>
-
             <section>
-
-                <div class="container ea-header">
-                </div>
-
-                <div class="container">
-                    <div class="container centered-title">
-                        <div class="intro centered-title">
-                            <h1 class="title-1-b top-adjustment">Enrique Alvarenga</h1>
-                            <p class="p-site-b bottom-adjustment">
-                                Software Developer 
-                            </p>
-                        </div>    
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 order-md-1 card-offset-right">
+                        <div class="container header-container"></div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 order-md-2 card-offset-left">
+                        <div class="row align-items-center cover-content">
+                            <h3 class="slogan">Enrique Alvarenga</h3>
+                            <h4 class="sub-slogan-main">Software Developer</h4>
+                        </div>
                     </div>
                 </div>
-
             </section>
 
             <section>
-
                 <h2 class="page-title">Some of my work</h2>
 
                 <div class="slider-container">
@@ -71,14 +65,14 @@
                     <div class="slider">
                         
                         <div class="row slide active" id='s1'>
-                            <div class="col-lg-6 ea-order">
+                            <div class="col-lg-6 order-md-2">
                                 <div style="text-align: center;">
                                     <img class="slide-image" src="./img/MCRAS_Logo.png">
                                 </div>
 
                             </div>
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 order-md-1">
                                 <div class="slide-content-block">
                                     <h1 class="page-subtitle">MCRAS</h1>
                                     <p class="description">
@@ -92,7 +86,7 @@
 
                         </div>
 
-                        <div class="row slide right" id='s2'>
+                        <!-- <div class="row slide right" id='s2'>
                             <div class="col-lg-6 ea-order">
                                 <div style="text-align: center;">
                                     <img class="slide-image" src="./img/SilvermexSite.JPG">
@@ -113,9 +107,9 @@
                                 
                             </div>
 
-                        </div>
+                        </div> -->
 
-                        <div class="row slide right" id='s3'>
+                        <!-- <div class="row slide right" id='s3'>
                             <div class="col-lg-6 ea-order">
                                 <div style="text-align: center;">
                                     <img class="slide-image" src="./img/numbers.jpg">
@@ -135,9 +129,9 @@
                                 
                             </div>
 
-                        </div>
+                        </div> -->
 
-                        <div class="row slide right" id='s4'>
+                        <!-- <div class="row slide right" id='s4'>
 
                                 <div class="slide-content-block last-block" style="width: 100%;
                                 padding-top: 10%;
@@ -146,11 +140,11 @@
                                     <button class="button more button--border-medium button--round-s learn-more">See more</button>
                                 </div>
                             
-                        </div>
+                        </div> -->
 
                     </div>
         
-                    <div class="prev"><i class="fa fa-chevron-left fa-2x"></i></div>
+                    <!-- <div class="prev"><i class="fa fa-chevron-left fa-2x"></i></div>
                     <div class="next"><i class="fa fa-chevron-right fa-2x"></i></div>
           
                     <div class="bols">
@@ -158,16 +152,15 @@
                         <span data-get="#s2"></span>
                         <span data-get="#s3"></span>
                         <span data-get="#s4"></span>
-                    </div>
+                    </div> -->
+                
                 </div>
+
 
             </section>
 
             <section>
-                <br>
-                <br>
-                <br>
-                <div class="container site-container">
+                <!-- <div class="container site-container">
                     <div class="content-block">
                         <h2 class="page-title">About me</h2>
                         
@@ -197,7 +190,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </section>
         </article>
 
@@ -207,7 +200,6 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
