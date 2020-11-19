@@ -139,14 +139,6 @@ a:active
 }
    
 
-    .page-subtitle
-    {
-      text-align:center;
-      font-size: 2em;
-      color: #224566;
-      margin-top: 1%;
-      margin-bottom: 1%;
-    }
     .page-subtitle-more
     {
       text-align:left;
@@ -155,14 +147,6 @@ a:active
       margin-top: 1%;
       margin-bottom: 1%;
       padding-left: 10%;
-    }
-
-    .description
-    {
-      text-align: -webkit-auto;
-      margin-left: 5em;
-      margin-right: 5em;
-      font-size: 1.3vw;
     }
 
 
@@ -301,10 +285,6 @@ h2, h1
     color: #F6EADA;
 }
 
-#content-style{
-    color: #774F36;
-    text-align: justify;
-}
 
 .display-4
 {

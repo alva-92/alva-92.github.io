@@ -1,8 +1,21 @@
+.page-title
+{
+    font-size: 4vw;
+    font-family: "Playlist script";
+    color: #686369cf;
+}
 .page-subtitle
 {
-  text-align:left;
-  font-size: 2em;
-  color: #224566;
-  margin-top: 1%;
-  margin-bottom: 1%;
+    font-family: "Playlist script";
+    text-align:left;
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.description 
+{
+    font-family: "Playlist script";
+    text-align:   -webkit-auto;
+    font-size:    1.3vw;
 }
