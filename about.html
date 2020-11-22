@@ -52,121 +52,100 @@
                 </div>
               </section>
  
-            <section>        
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        
-                <script>
-                    function loadInitialContent() {
-                        $("#exp1").toggle();
-                    };
-                </script>
-        
-                <script>
-                    $(function() {
-                        $(".btn").on("click", function() {
-                            $(".content-section").hide(); /* Hide all the sections */
-                            $("#" + $(this).attr("data-section")).show(); /* Display the selected experience */
-                        });
-                    });                
-                </script>
-        
-                <div class="container site-container">
-                <div class="centered">
-        
-                    <div class="experience">
-        
-                        <div id="div1">
-                                
-                            <div class="menu">
-                                
-                                <div class="button-align">
-                                    <button type="button" data-section="exp1" id="exp" class="btn btn-primary history segmentedButton btn-block responsive-width">Algonquin</button>
-                                </div>
-                
-                                <div class="button-align">
-                                    <button type="button" data-section="exp2" id="exp" class="btn btn-primary history segmentedButton">Freelancer</button>
-                                </div>
-                
-                                <div class="button-align">
-                                    <button type="button" data-section="exp3" id="exp" class="btn btn-primary history segmentedButton">Capital Controls</button>
-                                </div>
-                
-                                <div class="button-align">
-                                    <button type="button" data-section="exp4" id="exp" class="btn btn-primary history segmentedButton">Sightline</button>
-                                </div>
-        
-                                <div class="button-align">
-                                    <button type="button" data-section="exp5" id="exp" class="btn btn-primary history segmentedButton">In-TAC</button>
-                                </div>
-                            </div>
-                
-                        </div>
-                
-                        <div id="div2">
-        
-                            <div class="content-section" id="exp1">
-                                <h3 class="page-subtitle" id="title"> Center of Applied Research and Innovation </h3>
-                                <p class="description" id="content-style"> 
-                                    I worked with a team of 10 software developers/engineers to take 2 products from an 
-                                    early proof of concept stage, to product trials, to having profitable applications within 2 years.
-                                </p>
-                                <p class="description" id="content-style">
-                                    Applications:
-                                </p>
-                                <p class="description" id="content-style"> 
-                                    • A next generation network solution that provides 
-                                    edge-to-cloud network analytics that can be used for optimization of IoT 
-                                    connectivity as well as wireless infrastructure, quality assurance, network 
-                                    visualization and monetization.
-                                </p>
-                                <p class="description" id="content-style"> 
-                                    • A mobile application to prevent distracting driving. This is done by automatically 
-                                    disabling the mobile devices in vehicle and effectively preventing users from texting, 
-                                    browsing, social media posting, etc. while driving.
-                                </p>
-                            </div>
-                            <div class="content-section" id="exp2">
-                                <h5 class="page-subtitle" id="title"> Freelancer </h5>
-                                <p class="p-site" id="content-style">
-                                    Worked with local and foreign startups as well as small to mid size 
-                                    companies and helped them to attain a stronger virtual presence
-                                    through web and mobile development.
-                                </p>
-                            </div>
-                            <div class="content-section" id="exp3">
-                                <h5 class="page-subtitle" id="title"> Capital Controls </h5>
-                                <p class="p-site" id="content-style">
-                                    Built electro-mechanical control systems for water treatment plants and 
-                                    ensured that production processes are carried out in accordance with company policies and procedures.
-                                </p>
-                            </div>
-                            <div class="content-section" id="exp4">
-                                <h5 class="page-subtitle" id="title"> Sightline Process Control</h5>
-                                <p class="p-site" id="content-style">
-                                    Played a lead role creating and testing Sightline systems utilizing motor control, 
-                                    servos, microcontrollers, VFDs’ and Programmable Logic Controllers 
-                                    (Allen Bradley 500 and 5000) as well as creating training and user documentation.
-                                    Traveled nationally and internationally to maintain, repair and install Sightline Automation Systems
 
-        
-                                </p>
+              <section>
+                <ul class="timeline">
+
+                    <!-- Item 1 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">HostedBizz</span>
+                                <span class="time-wrapper"><span class="time">2020 - present</span></span>
                             </div>
-        
-                            <div class="content-section" id="exp5">
-                                <h5 class="page-subtitle" id="title"> In-TAC - International Talent Acquisition Center</h5>
-                                <p class="p-site" id="content-style">
-                                    Imagine starting all over again in a new country, learning a new language and trying to fit in a 
-                                    new business culture. Sounds daunting? In-Tac's Mentorship Program consists in providing the help needed 
-                                    to successfully go through that transition and adapt to a new environment. It is the only one of its kind 
-                                    in Canada that coaches both mentors and mentees at the same time to successfully incorporate into the work force.
-                                </p>
+                            <div class="desc">Currently working as a Software Developer maintaining, and upgrading
+                                company products. 
                             </div>
-        
                         </div>
-                    </div>
-                </div>
-            </div>
-            </section>
+                    </li>
+                  
+                    <!-- Item 2 -->
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">Center of Applied Research and Innovation</span>
+                                <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                            </div>
+                            <div class="desc">Worked with a team of 10 software developers/engineers to take 2 products from an 
+                                early proof of concept stage, to product trials, to having profitable applications within 2 years.</div>
+
+                            <p class="description" id="content-style">
+                                Applications:
+                            </p>
+
+                            <div class="desc">
+                                • A next generation network solution that provides 
+                                edge-to-cloud network analytics that can be used for optimization of IoT 
+                                connectivity as well as wireless infrastructure, quality assurance, network 
+                                visualization and monetization.
+                            </div>
+
+                            <div class="desc">
+                                • A mobile application to prevent distracting driving. This is done by automatically 
+                                disabling the mobile devices in vehicle and effectively preventing users from texting, 
+                                browsing, social media posting, etc. while driving.
+                            </div>
+                        </div>
+                    </li>
+                
+                    <!-- Item 3 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Freelancer</span>
+                                <span class="time-wrapper"><span class="time">2017</span></span>
+                            </div>
+                            <div class="desc">
+                                Worked with local and foreign startups as well as small to mid size 
+                                companies and helped them to attain a stronger virtual presence
+                                through web and mobile development.
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Item 4 -->
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">Capital Controls</span>
+                                <span class="time-wrapper"><span class="time">2015 - 2017</span></span>
+                            </div>
+                            <div class="desc">
+                                Built electro-mechanical control systems for water treatment plants and 
+                                ensured that production processes are carried out in accordance with company policies and procedures.
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Item 5 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Sightline Process Control</span>
+                                <span class="time-wrapper"><span class="time">2014 - 2015</span></span>
+                            </div>
+                            <div class="desc">
+                                Played a lead role creating and testing Sightline systems utilizing motor control, 
+                                servos, microcontrollers, VFDs’ and Programmable Logic Controllers 
+                                (Allen Bradley 500 and 5000) as well as creating training and user documentation.
+                                Traveled nationally and internationally to maintain, repair and install Sightline Automation Systems
+                            </div>
+                        </div>
+                    </li>
+                  
+                </ul>
+                
+              </section>
             
             <section>
                 <br>
