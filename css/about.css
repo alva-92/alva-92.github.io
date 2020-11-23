@@ -225,7 +225,7 @@
         z-index: 15;
     }
   
-    .direction-l .flag:before,
+    /* .direction-l .flag:before,
     .direction-r .flag:before 
     {
         position: absolute;
@@ -240,7 +240,7 @@
         border-radius: 10px;
         border: 4px solid rgb(255,80,80);
         z-index: 10;
-    }
+    } */
   
     .direction-l .flag:after,
     .direction-r .flag:after 
@@ -336,25 +336,56 @@
         float: right;
       }
 }
-  /* Responsive layout - when the screen is 41.125em (~658px) wide or less */
-@media all and (max-width: 41.125em) 
+  /* Responsive layout - when the screen is 37.1875em (~595px) wide or less */
+@media all and (max-width: 37.1875em) 
 {
-    .desc
-    {
-        font-size: 4vw;
-    }
+  .page-title 
+  {
+    font-size: 9vw;
+  }
 
-    .direction-l {
-        position: relative;
-        width: 600px;
-        float: left;
-        text-align: -webkit-auto;
-      }
-      
-      .direction-r {
-        position: relative;
-        width: 600px;
-        float: right;
-      }
+  .desc
+  {
+    font-size: 4vw;
+  }
 
+  .description 
+  {
+    font-family: "Playlist script";
+    text-align: center;
+    font-size: 1.3vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: none;
+  }
+
+  .direction-l 
+  {
+    position: relative;
+    width: 600px;
+    float: none;
+    text-align: -webkit-auto;
+  }
+    
+  .direction-r 
+  {
+    position: relative;
+    width: 600px;
+    float: none;
+  }
+
+  .time-wrapper 
+  {
+    display: block;
+    position: relative;
+    margin: 15px 0 0 0;
+    z-index: 14;
+  }
+
+  .flag-wrapper 
+  {
+    text-align: center;
+    width: 100%;
+    font-size: 3.7vw;
+  }
 }
