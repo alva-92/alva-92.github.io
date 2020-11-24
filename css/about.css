@@ -299,49 +299,100 @@
   
   }
   
-  @media screen and (min-width: 400px ) {
-  
-    .direction-l .desc,
-    .direction-r .desc 
-    {
-        margin: 1em 0em 0 0em;
-    }
-  }
-
-  @media screen and (max-width: 660px) 
-  {
-  
-        .direction-l .desc,
-        .direction-r .desc 
-        {
-            margin: 1em 4em 0 4em;
-        }
-  
-  }
-
-
-    /* Responsive layout - when the screen is 55em (~880px) wide or less */
+/* Responsive layout - when the screen is 55em (~880px) wide or less */
 @media all and (max-width: 55em)
 {
-    .direction-l {
-        position: relative;
-        width: 200px;
-        float: left;
-        text-align: -webkit-auto;
-      }
-      
-      .direction-r {
-        position: relative;
-        width: 200px;
-        float: right;
-      }
+  .page-title 
+  {
+    font-size: 8vw;
+  }
+
+  .desc
+  {
+    font-size: 3vw;
+  }
+
+  .description 
+  {
+    font-family: "Playlist script";
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: none;
+  }
+
+  .direction-l {
+    position: relative;
+    width: 100%;
+    float: none;
+  }
+
+  .direction-r .desc 
+  {
+    margin: 1em 15em 0px -1em;
+  }
+  
+  .direction-r {
+    position: relative;
+    width: 100%;
+    float: none;
+  }
+
+  .direction-l .desc 
+  {
+    margin: 1em -1em 0px 15em;
+  }
+
+  .time-wrapper 
+  {
+    display: block;
+    position: relative;
+    margin: 15px 0 0 0;
+    z-index: 14;
+  }
+
+  .flag-wrapper 
+  {
+    text-align: center;
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  .direction-r .time-wrapper 
+  {
+    float: none;
+  }
+
+  .direction-l .time-wrapper 
+  {
+    float: none;
+  }
+
+  .flag 
+  {
+      background: rgb(255,255,255);
+      z-index: 15;
+  }
+
 }
-  /* Responsive layout - when the screen is 37.1875em (~595px) wide or less */
-@media all and (max-width: 37.1875em) 
+
+    /* Responsive layout - when the screen is 41.25em (~660px) wide or less */
+@media all and (max-width: 41.25em)
 {
   .page-title 
   {
     font-size: 9vw;
+  }
+
+  .direction-r .desc 
+  {
+    margin: 1em 1em 0px 1em;
+  }
+
+  .direction-l .desc 
+  {
+    margin: 1em 1em 0px 1em;
   }
 
   .desc
@@ -362,15 +413,14 @@
   .direction-l 
   {
     position: relative;
-    width: 600px;
+    width: 100%;
     float: none;
-    text-align: -webkit-auto;
   }
     
   .direction-r 
   {
     position: relative;
-    width: 600px;
+    width: 100%;
     float: none;
   }
 

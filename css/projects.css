@@ -1,3 +1,22 @@
+.page-title
+{
+    font-family: "Playlist script";
+    text-align: center;
+    font-size: 3em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.page-subtitle
+{
+    font-family: "Playlist script";
+    text-align:left;
+    font-size: 3em;
+    color: #686369cf;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left:  1%;
+}
 
 .project-entry-row
 {
@@ -101,3 +120,4 @@
    font-size: 1.1rem;
    padding-right: 40px;
 }
+
