@@ -298,9 +298,163 @@
     }
   
   }
+
+/* Responsive layout - when the screen is 100em (~1600px) wide or less */
+@media all and (max-width: 100em)
+{
+  .page-title 
+  {
+    font-size: 5vw;
+  }
+
+  .desc
+  {
+    font-size: 2vw;
+  }
+
+  .description 
+  {
+    font-family: "Playlist script";
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: none;
+  }
+
+  .direction-l {
+    position: relative;
+    width: 100%;
+    float: none;
+  }
+
+  .direction-r .desc 
+  {
+    margin: 1em 20em 0px -1em;
+  }
   
-/* Responsive layout - when the screen is 55em (~880px) wide or less */
-@media all and (max-width: 55em)
+  .direction-r {
+    position: relative;
+    width: 100%;
+    float: none;
+  }
+
+  .direction-l .desc 
+  {
+    margin: 1em -1em 0px 20em;
+  }
+
+  .time-wrapper 
+  {
+    display: block;
+    position: relative;
+    margin: 15px 0 0 0;
+    z-index: 14;
+  }
+
+  .flag-wrapper 
+  {
+    text-align: center;
+    width: 100%;
+    font-size: 1.8vw;
+  }
+
+  .direction-r .time-wrapper 
+  {
+    float: none;
+  }
+
+  .direction-l .time-wrapper 
+  {
+    float: none;
+  }
+
+  .flag 
+  {
+      background: rgb(255,255,255);
+      z-index: 15;
+  }
+}
+
+/* Responsive layout - when the screen is 87.5em (~1300px) wide or less */
+@media all and (max-width: 87.5em)
+{
+  .page-title 
+  {
+    font-size: 7vw;
+  }
+
+  .desc
+  {
+    font-size: 2.5vw;
+  }
+
+  .description 
+  {
+    font-family: "Playlist script";
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: none;
+  }
+
+  .direction-l {
+    position: relative;
+    width: 100%;
+    float: none;
+  }
+
+  .direction-r .desc 
+  {
+    margin: 1em 15em 0px -1em;
+  }
+  
+  .direction-r {
+    position: relative;
+    width: 100%;
+    float: none;
+  }
+
+  .direction-l .desc 
+  {
+    margin: 1em -1em 0px 15em;
+  }
+
+  .time-wrapper 
+  {
+    display: block;
+    position: relative;
+    margin: 15px 0 0 0;
+    z-index: 14;
+  }
+
+  .flag-wrapper 
+  {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5vw;
+  }
+
+  .direction-r .time-wrapper 
+  {
+    float: none;
+  }
+
+  .direction-l .time-wrapper 
+  {
+    float: none;
+  }
+
+  .flag 
+  {
+      background: rgb(255,255,255);
+      z-index: 15;
+  }
+}
+
+/* Responsive layout - when the screen is 65em (~1040px) wide or less */
+@media all and (max-width: 65em)
 {
   .page-title 
   {
@@ -374,7 +528,6 @@
       background: rgb(255,255,255);
       z-index: 15;
   }
-
 }
 
     /* Responsive layout - when the screen is 41.25em (~660px) wide or less */
