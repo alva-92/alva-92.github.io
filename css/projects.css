@@ -51,6 +51,21 @@
   color: green;
 }
 
+.project-image
+{
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+}
+
+.project-description
+{
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+}
 
 @media (min-width: 576px){
   .col-sm-6 {
@@ -71,7 +86,6 @@
       height: 100%;
      }
 }
-
 
 .box-image {
    display: flex;
@@ -121,3 +135,33 @@
    padding-right: 40px;
 }
 
+/* Responsive layout - when the screen is 37.5em (~600px) wide or less */
+@media all and (max-width: 37.5em) 
+{
+ 
+  .page-subtitle
+  {
+      text-align: center;
+  }
+
+  .project-link
+  {
+    text-align: center;
+  }
+
+  .project-image
+  {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  .project-description
+  {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+  }
+}
